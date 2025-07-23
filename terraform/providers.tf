@@ -9,8 +9,6 @@ terraform {
 
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIARX27KZNM7MSULQHK"
-  secret_key = "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"
   default_tags {
     tags = {
       Owner           = "Yadin-TF-task1"

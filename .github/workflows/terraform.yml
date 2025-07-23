@@ -38,7 +38,7 @@ jobs:
 
     - name: Setup Terraform
       run: |
-        terraform --version
+        terraform -version
         echo "Terraform is already installed on the runner."
 
 

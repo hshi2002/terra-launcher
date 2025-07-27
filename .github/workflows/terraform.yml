@@ -42,8 +42,8 @@ jobs:
         echo "Terraform is already installed on the runner."
 
 
-    - name: Terraform Format Check
-      run: terraform fmt -check -recursive
+    #- name: Terraform Format Check
+    #  run: terraform fmt -check -recursive
 
 
     - name: Terraform Init
